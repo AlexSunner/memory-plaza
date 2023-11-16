@@ -8,3 +8,27 @@
     display: flex;
     justify-content: center;
 }
+
+/* Game Area styles */
+.game-area {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Memory Card styles */
+.card {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
